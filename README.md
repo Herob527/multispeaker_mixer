@@ -1,4 +1,6 @@
 # Rust Mixer
+Basically, it's based on Olusiowiec's DatasetMixer written in C#
+
 This program basically takes every dataset in "datasets" folder and mixes them to create a dataset for training multispeaker models like Flowtron, RADTTS etc.
 
 Each dataset must have "wavs" directory, "list_train.txt" and "list_val.txt"
