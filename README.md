@@ -1,5 +1,5 @@
 # Rust Mixer
-Basically, it's based on Olusiowiec's DatasetMixer written in C#
+Basically, it's based on Olusiowiec's DatasetMixer
 
 This program basically takes every dataset in "datasets" folder and mixes them to create a dataset for training multispeaker models like Flowtron, RADTTS etc.
 
