@@ -241,7 +241,7 @@ fn main() {
                 continue;
             }
         };
-        if sum_length < minimum_dataset_length {
+        if sum_length < MINIMUM_DATASET_LENGTH {
             println!(
                 "Dataset {} is too short dataset. Discarding",
                 &dataset.display()
