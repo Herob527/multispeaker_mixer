@@ -71,6 +71,7 @@ struct DatasetBasicData {
 }
 
 fn main() {
+    const minimum_dataset_length:f64 = 300.0;
     // Setting up basic directories
     let path_to_datasets: PathBuf = Path::new("datasets").to_path_buf();
     if !path_to_datasets.exists() {
@@ -240,7 +241,7 @@ fn main() {
                 continue;
             }
         };
-        if sum_length < 300.0 {
+        if sum_length < minimum_dataset_length {
             println!(
                 "Dataset {} is too short dataset. Discarding",
                 &dataset.display()
