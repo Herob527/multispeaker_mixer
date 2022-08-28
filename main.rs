@@ -71,7 +71,7 @@ struct DatasetBasicData {
 }
 
 fn main() {
-    const minimum_dataset_length:f64 = 300.0;
+    const MINIMUM_DATASET_LENGTH:f64 = 300.0;
     // Setting up basic directories
     let path_to_datasets: PathBuf = Path::new("datasets").to_path_buf();
     if !path_to_datasets.exists() {
